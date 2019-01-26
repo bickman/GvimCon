@@ -7,7 +7,7 @@
 
 新安装的**gvim**打开是这样的：  
 
-![gvimg](a/raw/b/img/gvimStart.jpg)  
+![gvimg](/img/gvimStart.jpg)  
 
 界面又丑陋，操作还不习惯，若不是好奇心驱使，谁会花功夫用这东西，毕竟现在有更modern的编辑器，像**atom**，**vscode**，功能都能强大，界面也好看，而且直接可以上手。  
 
@@ -19,7 +19,7 @@
 
 忍受了 **vim** 的第一阶段，发现这个编辑器一般使用没啥问题，相比 **atom** 小巧快速，而且还有很多功能未开发，还不错嘛，于是便想着配置一下，从一开始读帮助文档一点一点的配置，到后来的通过插件管理器安装各种各样的插件，仿佛进入了一片新的海洋，也发现了 **vim** 的迷人之处。下图是经过几天的配置调整后的 **vim** 的全新界面，仅仅通过修改一个 `_vimrc` 文件：
 
-![GvimCon](a/raw/b/img/GvimCon.jpg)  
+![GvimCon](/img/GvimCon.jpg)  
 
 经过配置后的 **gvim** 界面不输 **atom** 的，具体如何配置呢？首先找到你的 `_vimrc` 文件，新安装的 **gvim** 在安装文件夹的根目录有一个 `_vimrc` ，你也可以在 `C:/user/用户名` 下建立 `_vimrc` 文件，这个两个路径分别对应 `$VIM`以及 `$HOME`，都是 **gvim** 启动后会载入的文件夹，可以在 **gvim** 里通过 `:version`查看所有的路径，也可以用 `:echo $VIM` `:echo $HOME`查看各自的路径，通过 `:echo $MYVIMRC`查看现在使用的是哪里的`_vimrc`。
 
@@ -36,7 +36,3 @@
 [**vim-airline**](https://github.com/vim-airline/vim-airline) 让 **gvim**的状态栏更漂亮还可以制定状态栏主题 [**vim-airline-themes**](https://github.com/vim-airline/vim-airline-themes)，注意需要系统安装[**powerline fonts**](https://github.com/powerline/fonts) 这种字体其实就是在一般字体中加入了一些符号，让 **Airline** 可以调用，从而让状态栏可以显示特殊符号，变得更美观，这个项目里的字体都很不错，而且非常多，足以满足你对英文字体的要求。
 
 经过以上几步，基本上你的 **vim** 的外观会发生本质的上的变化，而且你也应该会举一反三，进行其他的配置和插件的安装，相信你以后会继续探索 **vim** 的更多功能。
-
- 
-
-

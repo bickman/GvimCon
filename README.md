@@ -25,7 +25,7 @@
 
 准备好了 `_vimrc`，让我们来正式开始配置 **gvim**。推荐网站：[vim awesome](https://vimawesome.com/)，这里有归类了几乎所有的 **vim** 插件，还有安装方法和 **github** 链接，因为大部分的插件都是开源的，存放在 **github** 上，下面我会简要说明一下我的配置。
 
-先安装插件管理器，比如 **vundle**，**Pathogen**， **VimPlug**， **NeoBundle**，其实原理都差不多，都是通过在 **github** 下载打包的插件，并进行管理，选择一个即可，推荐 [**vundle**](https//github.com/VundleVim/Vundle.vim) 。
+先安装插件管理器，比如 **vundle**，**Pathogen**， **VimPlug**， **NeoBundle**，其实原理都差不多，都是通过在 **github** 下载打包的插件，并进行管理，选择一个即可，推荐 [**vundle**](https://github.com/VundleVim/Vundle.vim) 。
 
 按照官方要求安装好 **vundle** 并配置好 `_vimrc` 后，就可以方便的安装插件了，比如看中了**solarized** 主题，只需要找到官方的 **github** ，在 `_vimrc` 里插件处添加地址名称，然后输入`:source $MYVIMRC`重新载入配置文件或者重启 **vim** ，然后输入`：PluginInstall`即可，相当方便。还可以将这些命令制作成快捷键，提高效率，具体可以看我的 `_vimrc` 样例。
 

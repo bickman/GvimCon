@@ -25,14 +25,16 @@
 
 准备好了 `_vimrc`，让我们来正式开始配置 **gvim**。推荐网站：[vim awesome](https://vimawesome.com/)，这里有归类了几乎所有的 **vim** 插件，还有安装方法和 **github** 链接，因为大部分的插件都是开源的，存放在 **github** 上，下面我会简要说明一下我的配置。
 
-先安装插件管理器，比如 **vunble**，**Pathogen**， **VimPlug**， **NeoBundle**，其实原理都差不多，都是通过在 **github** 下载打包的插件，并进行管理，选择一个即可，推荐 **vunble** 。
+先安装插件管理器，比如 **vundle**，**Pathogen**， **VimPlug**， **NeoBundle**，其实原理都差不多，都是通过在 **github** 下载打包的插件，并进行管理，选择一个即可，推荐 **vundle** 。
 
-按照官方要求安装好 **vunble** 并配置好 `_vimrc` 后，就可以方便的安装插件了，比如看中了**solarized** 主题，只需要找到官方的 **github** ，在 `_vimrc` 里插件处添加地址名称，然后输入`:source $MYVIMRC`重新载入配置文件或者重启 **vim** ，然后输入`：PluginInstall`即可，相当方便。还可以将这些命令制作成快捷键，提高效率，具体可以看我的 `_vimrc` 样例。
+按照官方要求安装好 **vundle** 并配置好 `_vimrc` 后，就可以方便的安装插件了，比如看中了**solarized** 主题，只需要找到官方的 **github** ，在 `_vimrc` 里插件处添加地址名称，然后输入`:source $MYVIMRC`重新载入配置文件或者重启 **vim** ，然后输入`：PluginInstall`即可，相当方便。还可以将这些命令制作成快捷键，提高效率，具体可以看我的 `_vimrc` 样例。
 
 下面推荐一些好用的插件：
 
-首先是主题，推荐 [**base16**](https://github.com/chriskempson/base16-vim)，这个主题项目包含了大部分其他的主题项目，保证你选都选不过来。
+主题插件:[**base16**](https://github.com/chriskempson/base16-vim)，包含了众多流行的主题，比如[solarized](https://github.com/altercation/vim-colors-solarized)，[onedark](https://github.com/joshdick/onedark.vim)等等，一个项目就囊括了几十种华丽的主题，不用你东奔西跑了，等你选定几种主题，再单独安装即可。
 
-[**vim-airline**](https://github.com/vim-airline/vim-airline) 让 **gvim**的状态栏更漂亮还可以制定状态栏主题 [**vim-airline-themes**](https://github.com/vim-airline/vim-airline-themes)，注意需要系统安装[**powerline fonts**](https://github.com/powerline/fonts) 这种字体其实就是在一般字体中加入了一些符号，让 **Airline** 可以调用，从而让状态栏可以显示特殊符号，变得更美观，这个项目里的字体都很不错，而且非常多，足以满足你对英文字体的要求。
+状态栏插件：[**vim-airline**](https://github.com/vim-airline/vim-airline)让 **gvim**的状态栏变得更绚丽多彩。
 
-经过以上几步，基本上你的 **vim** 的外观会发生本质的上的变化，而且你也应该会举一反三，进行其他的配置和插件的安装，相信你以后会继续探索 **vim** 的更多功能。
+状态栏插件主题： [**vim-airline-themes**](https://github.com/vim-airline/vim-airline-themes)注意需要系统安装[**powerline fonts**](https://github.com/powerline/fonts) 这种字体其实就是在一般字体中加入了一些符号，让 **Airline** 可以调用，从而让状态栏可以显示特殊符号，变得更美观，这个项目里的字体都很不错，而且非常多，足以满足你对英文字体的要求。
+
+经过以上几步，基本上你的 **vim** 的外观会发生本质的上的变化，而且你也应该会举一反三，进行其他的配置安装，相信你以后会继续探索 **vim** 的更多功能。

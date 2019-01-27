@@ -35,6 +35,6 @@
 
 状态栏插件：[**vim-airline**](https://github.com/vim-airline/vim-airline)让 **gvim**的状态栏变得更绚丽多彩。
 
-状态栏插件主题： [**vim-airline-themes**](https://github.com/vim-airline/vim-airline-themes)注意需要系统安装[**powerline fonts**](https://github.com/powerline/fonts) 这种字体其实就是在一般字体中加入了一些符号，让 **Airline** 可以调用，从而让状态栏可以显示特殊符号，变得更美观，这个项目里的字体都很不错，而且非常多，足以满足你对英文字体的要求。
+状态栏插件主题： [**vim-airline-themes**](https://github.com/vim-airline/vim-airline-themes)注意需要系统安装[**powerline fonts**](https://github.com/powerline/fonts) 这种字体其实就是在一般字体中加入了一些符号，让 **airline** 可以调用，从而让状态栏可以显示特殊符号，变得更美观，这个项目里的字体都很不错，而且非常多，足以满足你对英文字体的要求。
 
 经过以上几步，基本上你的 **vim** 的外观会发生本质的上的变化，而且你也应该会举一反三，进行其他的配置安装，相信你以后会继续探索 **vim** 的更多功能。
